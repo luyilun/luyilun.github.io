@@ -2,19 +2,20 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>wzy</title>
+		<title>陆奕伦</title>
 		<style>
-			* {
-				margin: 0;
-				padding: 0;
-			}
-			body {
-				overflow: hidden;
-			}
-					/*canvas{ background: #0c0c0c; }*/
+			* {margin: 0;padding: 0;}
+			body {overflow: hidden;}
+			canvas {position: fixed;top:0;left:0;z-index: -1;}
+			header {width:1200px;height:234px;background:rgba(250,250,250,0.3);margin:0 auto;border-radius: 10px;}
+			.c-title {text-align:center;color:rgba(250,250,250,0.5);text-shadow: 5px 5px 5px #FF0000;}
 		</style>
 	</head>
 <body>
+	<header>
+		<h1 class="c-title">陆奕伦的个人主页</h2>
+	</header>
+	<!-- 背景墙 -->
 	<canvas id="canvas"> 您的浏览器不支持canvas标签，请您更换浏览器 </canvas>
 	<script>
 			var canvas=document.getElementById("canvas");
